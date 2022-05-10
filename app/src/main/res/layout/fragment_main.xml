@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/logo"/>
+        android:src="@drawable/aviva2"/>
 
     <LinearLayout
         app:layout_constraintStart_toStartOf="parent"
@@ -48,19 +48,12 @@
                         android:orientation="vertical">
                         <ImageButton
                             android:id="@+id/calls_image_button"
-                            android:src="@drawable/calls"
+                            android:src="@drawable/sos"
                             android:background="@null"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             />
-                        <TextView
-                            android:paddingTop="10dp"
-                            android:fontFamily="@font/poppins_regular"
-                            android:textSize="14sp"
-                            android:textColor="@color/white"
-                            android:text="Calls"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
             </FrameLayout>
@@ -83,18 +76,11 @@
                         android:orientation="vertical">
                         <ImageButton
                             android:id="@+id/reports_image_button"
-                            android:src="@drawable/reports"
+                            android:src="@drawable/location"
                             android:background="@null"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
-                        <TextView
-                            android:paddingTop="10dp"
-                            android:fontFamily="@font/poppins_regular"
-                            android:textSize="14sp"
-                            android:textColor="@color/white"
-                            android:text="Reports"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
             </FrameLayout>
@@ -126,18 +112,11 @@
                         android:orientation="vertical">
                         <ImageButton
                             android:id="@+id/tasks_image_button"
-                            android:src="@drawable/tasks"
+                            android:src="@drawable/user"
                             android:background="@null"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
-                        <TextView
-                            android:paddingTop="10dp"
-                            android:fontFamily="@font/poppins_regular"
-                            android:textSize="14sp"
-                            android:textColor="@color/white"
-                            android:text="Tasks"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
             </FrameLayout>
@@ -162,18 +141,11 @@
                         android:orientation="vertical">
                         <ImageButton
                             android:id="@+id/attendance_image_button"
-                            android:src="@drawable/attendance"
+                            android:src="@drawable/emergency_call"
                             android:background="@null"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
-                        <TextView
-                            android:paddingTop="10dp"
-                            android:fontFamily="@font/poppins_regular"
-                            android:textSize="14sp"
-                            android:textColor="@color/white"
-                            android:text="Attendance Leaving"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
             </FrameLayout>
